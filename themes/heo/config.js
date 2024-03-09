@@ -104,7 +104,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '',
   HEO_SOCIAL_CARD_TITLE_2: '',
-  HEO_SOCIAL_CARD_TITLE_3: '🔴🟡🟢点击发现更多精彩',
+  HEO_SOCIAL_CARD_TITLE_3: '🔴🟡🟢发现更多精彩▷',
   HEO_SOCIAL_CARD_URL: '/about',
 
   // *****  以下配置无效，只是预留开发 ****
