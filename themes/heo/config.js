@@ -16,7 +16,7 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享技术',
   HEO_HERO_TITLE_2: '与美好生活',
   HEO_HERO_TITLE_3: '科技、金融、认知、效率、开发',
-  HEO_HERO_TITLE_4: 'wangpeng.run',
+  HEO_HERO_TITLE_4: 'Hello World',
   HEO_HERO_TITLE_5: '追风一直跑',
   HEO_HERO_TITLE_LINK: '#',
 
@@ -78,7 +78,7 @@ const CONFIG = {
     {
       title_1: 'illustrator',
       img_1: '/images/heo/20237359d71b45ab77829cee5972e36f8c30073902.webp',
-      color_1: '#f29e39',
+      color_1: '#d4872c',
       title_2: 'CSS3',
       img_2: '/images/heo/20237c548846044a20dad68a13c0f0e1502f074602.webp',
       color_2: '#2c51db'
@@ -97,14 +97,14 @@ const CONFIG = {
       color_1: '#df5b40',
       title_2: 'Rhino',
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
-      color_2: '#1f1f1f'
+      color_2: '#5e5858'
     }
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '微信公众号',
-  HEO_SOCIAL_CARD_TITLE_2: '更多精彩内容等你发现',
-  HEO_SOCIAL_CARD_TITLE_3: '点击查看>>',
+  HEO_SOCIAL_CARD_TITLE_1: '',
+  HEO_SOCIAL_CARD_TITLE_2: '',
+  HEO_SOCIAL_CARD_TITLE_3: '🔴🟡🟢点击发现更多精彩',
   HEO_SOCIAL_CARD_URL: '/about',
 
   // *****  以下配置无效，只是预留开发 ****
