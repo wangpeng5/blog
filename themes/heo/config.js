@@ -5,11 +5,6 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'Welcome 欢迎光临🎯', url: '#' },
-    { title: '昨天是段历史☠️', url: '#' },
-    { title: '明天是个谜团👻', url: '#' },
-    { title: '今天是天赐的礼物☃️', url: '#' },
-    { title: '要像珍惜礼物一样珍惜今天❤️', url: '#' }
   ],
 
   // 英雄区左右侧组件颠倒位置
