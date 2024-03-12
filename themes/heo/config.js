@@ -1,10 +1,13 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2024-03-05', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-03-06', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
+    { title: '科学技术是第一生产力👻', url: '#' },
+    { title: '实践是检验真理的唯一标准☃️', url: '#' },
+    { title: '技术,制度,文化❤️', url: '#' }
   ],
 
   // 英雄区左右侧组件颠倒位置
