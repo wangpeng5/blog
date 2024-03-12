@@ -5,9 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '科学技术是第一生产力👻', url: '#' },
-    { title: '实践是检验真理的唯一标准☃️', url: '#' },
-    { title: '技术,制度,文化❤️', url: '#' }
+    { title: '实践是检验真理的唯一标准☃️', url: '#' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -107,7 +105,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '',
   HEO_SOCIAL_CARD_TITLE_2: '',
-  HEO_SOCIAL_CARD_TITLE_3: '🔴🟡🟢发现更多精彩▷',
+  HEO_SOCIAL_CARD_TITLE_3: '🔴🟡🟢发现更多精彩',
   HEO_SOCIAL_CARD_URL: '/about',
 
   // *****  以下配置无效，只是预留开发 ****
