@@ -23,7 +23,6 @@ const Tabs = ({ className, children }) => {
             <li key={index}
                 className={`${currentTab === index ? 'font-black border-b-2 border-red-600 text-red-600 animate__animated animate__jello' : 'font-extralight cursor-pointer'} text-sm font-sans`}
                 onClick={() => setCurrentTab(index)}>
-
             </li>
           ))}
         </ul>
