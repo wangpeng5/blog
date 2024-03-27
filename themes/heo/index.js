@@ -383,7 +383,7 @@ const Layout404 = props => {
               {/* 左侧动图 */}
               <LazyImage
                 className="error-img h-60 md:h-full p-4"
-                src={'https://bu.dusays.com/2023/03/03/6401a7906aa4a.gif'}
+                src={'/images/404.gif'}
               ></LazyImage>
 
               {/* 右侧文字 */}
@@ -395,6 +395,11 @@ const Layout404 = props => {
                 <Link href="/">
                   <button className="bg-blue-500 py-2 px-4 text-white shadow rounded-lg hover:bg-blue-600 hover:shadow-md duration-200 transition-all">
                     回到主页
+                  </button>
+                </Link>
+                <Link href="/search">
+                  <button className="bg-blue-500 py-2 px-4 text-white shadow rounded-lg hover:bg-blue-600 hover:shadow-md duration-200 transition-all">
+                    文章搜索
                   </button>
                 </Link>
               </div>
