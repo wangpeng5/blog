@@ -21,8 +21,9 @@ const Tabs = ({ className, children }) => {
         <ul className="flex justify-center space-x-5 pb-4 dark:text-gray-400 text-gray-600 overflow-auto">
           {validChildren.map((item, index) => (
             <li key={index}
-                className={`${currentTab === index ? 'font-black border-b-2 border-red-600 text-red-600 animate__animated animate__jello' : 'font-extralight cursor-pointer'} text-sm font-sans`}
-                onClick={() => setCurrentTab(index)}>
+              className={`${currentTab === index ? 'font-black border-b-2 border-red-600 text-red-600 animate__animated animate__jello' : 'font-extralight cursor-pointer'} text-sm font-sans`}
+              onClick={() => setCurrentTab(index)}>
+              {item.key}
             </li>
           ))}
         </ul>
@@ -42,4 +43,3 @@ const Tabs = ({ className, children }) => {
 };
 
 export default Tabs;
-
